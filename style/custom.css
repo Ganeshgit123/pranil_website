@@ -1,0 +1,58 @@
+:root {
+    --main-color: #0090F8;
+    --color-white: #fff;
+    --color-blue_background: #f3faff;
+    --color-black: #000000;
+    --footer-para: #fbfbfb;
+    --para-color: #707070;
+    --button-color: #0090f8;
+    --button-background-hover: #0090f8;
+    --button-background-fill-color: #0090f8;
+    --button-hover-color: #fff;
+    --button-border: #0090f8;
+    --footer-button--color: #f7f7f7;
+    --list-disc-color: #0090f8;
+    --box-shadow: 0px 3px 6px #00000029;
+    --button-border-radius: 12px;
+    --border-color: #707070;
+    --rgb-white: 255, 255, 255;
+    --heading-h1: 45px;
+    --heading-h2: 40px;
+    --heading-h3: 35px;
+    --heading-h4: 30px;
+    --heading-h5: 25px;
+    --heading-h6: 20px;
+    --para-size: 16px;
+    ---list-size: 14px;
+  }
+/* About Us page */
+.back_wrapper{
+    background: url('images/right_blob.svg') no-repeat;
+    background-position: right;
+    background-size: 18%;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .back_wrapper{
+        background: none;
+    }
+}
+.about_inner{
+    padding-top: 3rem;
+    padding-bottom: 0;
+ }
+ .about_content{
+     text-align: center;
+     font-weight: 400;
+     color: var(--para-color);
+ }
+ .common_heading{
+     font-size: var(--heading-h4);
+     color: var(--color-black);
+     font-weight: 600;
+     text-align: center;
+ }
+ .about_bott_content{
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-black);
+}

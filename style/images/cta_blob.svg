@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="260" viewBox="0 0 1920 260">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1057" data-name="Rectangle 1057" width="149" height="146" transform="translate(0 2753)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1058" data-name="Rectangle 1058" width="112" height="186" transform="translate(1808 2827)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3585" data-name="Group 3585" transform="translate(0 -2753)">
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="1920" height="260" transform="translate(0 2753)" fill="#0090f8"/>
+    <g id="Ellipse_96" data-name="Ellipse 96" transform="translate(953 2793)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.092">
+      <circle cx="26" cy="26" r="26" stroke="none"/>
+      <circle cx="26" cy="26" r="25.5" fill="none"/>
+    </g>
+    <g id="Ellipse_97" data-name="Ellipse 97" transform="translate(310 2926)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.092">
+      <circle cx="26" cy="26" r="26" stroke="none"/>
+      <circle cx="26" cy="26" r="25.5" fill="none"/>
+    </g>
+    <g id="Ellipse_98" data-name="Ellipse 98" transform="translate(1585 2807)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.092">
+      <circle cx="26" cy="26" r="26" stroke="none"/>
+      <circle cx="26" cy="26" r="25.5" fill="none"/>
+    </g>
+    <g id="Mask_Group_18" data-name="Mask Group 18" clip-path="url(#clip-path)">
+      <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(-75 2675)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.092">
+        <circle cx="112" cy="112" r="112" stroke="none"/>
+        <circle cx="112" cy="112" r="111.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Mask_Group_19" data-name="Mask Group 19" clip-path="url(#clip-path-2)">
+      <g id="Ellipse_95" data-name="Ellipse 95" transform="translate(1808 2827)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.092">
+        <circle cx="112" cy="112" r="112" stroke="none"/>
+        <circle cx="112" cy="112" r="111.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

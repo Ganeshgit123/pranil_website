@@ -117,9 +117,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'OpenSans', sans-serif;
-    color: #606060;
     font-size: 0.8rem;
-    background: #f9fafb;
     overflow-x: hidden;
     position: relative;
 }
@@ -299,6 +297,7 @@ h6.text-uppercase,
 .section-title.larger {
     font-size: 1.8rem;
     line-height: 2.1rem;
+    font-weight: 600;
 }
 .section-title.text-uppercase {
     font-size: 0.9rem;
@@ -370,8 +369,8 @@ h6.text-uppercase,
     color: #808080 !important;
 }
 .inner {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 footer .inner {
     padding-bottom: 5rem;
@@ -587,10 +586,10 @@ acronym[title] {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
-    background: rgba(var(--rgb-white), 0.95);
+    background: rgba(var(--rgb-white));
 }
 .banner--stick.bg-white {
-    background: rgba(var(--rgb-white), 0.95) !important;
+    background: rgba(var(--rgb-white)) !important;
 }
 .banner--stick.navbar-fancy-dark {
     background: #242930 !important;
@@ -1279,7 +1278,10 @@ button.hamburger.animate.active:after {
 /*	12. WRAPPERS
 /*-----------------------------------------------------------------------------------*/
 .blue-wrapper{
-    background-color: #F3FAFF !important;
+    background-color: var(--color-blue_background);
+}
+.light-wrapper{
+    background-color: var(--color-white) !important;
 }
 .dark-wrapper {
     background-color: #242930 !important;
@@ -6364,8 +6366,8 @@ footer.inverse-text address {
         padding-left: 15px !important;
     }
     .inner {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     footer .inner {
         padding-bottom: 3rem;
