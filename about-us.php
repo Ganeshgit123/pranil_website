@@ -21,7 +21,7 @@
         </nav>
         <!-- /.navbar -->
 
-        <div class="wrapper blue-wrapper">
+        <section class="wrapper blue-wrapper">
             <div class="container about_inner">
                 <h1 class="common_heading">About Us</h1>
                 <div class="space30"></div>
@@ -33,9 +33,9 @@
                 </div>
             </div>
             <!-- /.container -->
-        </div>
+        </section>
         <!-- /.wrapper -->
-        <div class="back_wrapper light-wrapper">
+        <section class="back_wrapper light-wrapper">
             <div class="container">
                 <div class="row align-items-center">
                     <!--/column -->
@@ -73,26 +73,32 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         <p class="about_bott_content">Pranil Enterprises Employee Management Services gives your company
-                            a
-                            competitive edge by handling everything from payroll to human resources to employee
+                            a competitive edge by handling everything from payroll to human resources to employee
                             benefits.</p>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
                 <!--/.row -->
             </div>
-        </div>
+        </section>
 
-        <div class="wrapper">
-                <div class="box shadow p-60 image-wrapper bg-full bg-image inverse-text rounded d-md-flex align-items-md-center justify-content-md-between"
-                    data-image-src="style/images/cta_blob.svg">
-                    <h3 class="display-3 mb-0">See how we can assist you?</h3>
-                    <div class="space30 d-md-none"></div>
-                    <a href="#" class="btn btn-white btn-strong-hover mb-0">Contact us Today.</a>
-            </div>
-            <!-- /.container -->
-        </div>
-        <?php include 'footer.php'; ?>
+        <section class="wrapper cta_section">
+            <div class="image-wrapper bg-full bg-image" data-image-src="style/images/cta_blob.svg">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-7 col-md-8">
+                        <h3 class="cta_cont mb-0">See how we can assist you?</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <p class="text-center mb-0"><a href="#" class="cta_btn">Contact us Today.</a></p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+
+        </section>
+        <!-- /.container -->
+    </div>
+    <?php include 'footer.php'; ?>
 
 
     </div>

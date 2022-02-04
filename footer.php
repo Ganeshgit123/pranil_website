@@ -1,59 +1,67 @@
   <footer class="dark-wrapper inverse-text">
-      <div class="container inner">
+      <div class="container">
         <div class="row">
           <div class="col-md-4 col-lg-3">
             <div class="widget">
-              <img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" />
-              <div class="space40"></div>
-              <p>© 2020 Snowlake App. <br class="d-none d-lg-block" />All rights reserved.</p>
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="col-md-4 col-lg-3">
-            <div class="widget">
-              <h3 class="widget-title">Get in Touch</h3>
-              <address>Moonshine St.<br class="d-none d-lg-block" /> 14/05 Light City,<br class="d-none d-lg-block" /> London, United Kingdom</address>
-              <a href="mailto:first.last@email.com">info@email.com</a><br /> +00 (123) 456 78 90
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="col-md-4 col-lg-3">
-            <div class="widget">
-              <h3 class="widget-title">Learn More</h3>
-              <ul class="list-unstyled">
-                <li><a href="#" class="nocolor">About Us</a></li>
-                <li><a href="#" class="nocolor">Our Story</a></li>
-                <li><a href="#" class="nocolor">Projects</a></li>
-                <li><a href="#" class="nocolor">Terms of Use</a></li>
-                <li><a href="#" class="nocolor">Privacy Policy</a></li>
-                <li><a href="#" class="nocolor">Contact Us</a></li>
-              </ul>
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /column -->
-          <div class="space30 d-none d-md-block d-lg-none"></div>
-          <div class="col-md-12 col-lg-3">
-            <div class="widget">
-              <h3 class="widget-title">Our Newsletter</h3>
-              <p>Subscribe to our newsletter to get our news & deals delivered to your inbox!</p>
+              <h6><i class="jam jam-map-marker-f"></i> Address</h6>
+              <p class="ico_cont">Office Locations:<br> Head Quarters – Bangalore #427, 4th Floor, B Block, AECS Layout, Singasandra, Bangalore 560068.</p>
+              <p class="d-sm-block d-md-none d-lg-none ico_cont">Regional Office – Guwahati KB Commercial Building, Gopinath Bordoloi Road, Near Guwahati Club Bus Stop Guwahati- Assam 781003</p>
               <div class="space10"></div>
-              <div class="newsletter-wrapper">
-                <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll" class="input-group">
-                    <input type="email" value="" name="EMAIL" class="email form-control mb-0 mr-2 mb-sm-0" id="mce-EMAIL" placeholder="Email Address" required>
-                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-rounded btn-default mr-0 mb-0 pull-right">Join</button>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                      <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" tabindex="-1" value="">
-                    </div>
-                    <div class="clearfix"></div>
-                  </div>
-                </form>
+              <h6><i class="icofont-ui-call"></i> Phone Number</h6>
+              <p class="ico_cont">080 - 439440938</p>
+              <div class="space10"></div>
+              <h6><i class="jam jam-envelope"></i> Mail</h6>
+              <p class="ico_cont mb-0">sambhu@nilasu.com</p>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-8 col-lg-9">
+            <div class="widget">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                <div class="space36"></div>
+              <p class="d-none d-lg-block d-md-block d-sm-none reg_add">Regional Office – Guwahati KB Commercial Building, Gopinath Bordoloi Road, Near Guwahati Club Bus Stop Guwahati- Assam 781003</p>
+                </div>
+                <div class="col-6 col-lg-4 col-md-3">
+                                <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                <li><a href="#" class="nocolor">Home</a></li>
+                <li><a href="#" class="nocolor">About us</a></li>
+                <li><a href="#" class="nocolor">Service</a></li>
+                <li><a href="#" class="nocolor">Terms of Use</a></li>
+                <li><a href="#" class="nocolor">Contact us</a></li>
+                <li><a href="#" class="nocolor">Blog</a></li>
+              </ul>
+                </div>
+                <div class="col-6 col-lg-4 col-md-3">
+                                <h6>Our Services</h6>
+                    <ul class="list-unstyled">
+                <li><a href="#" class="nocolor">Home</a></li>
+                <li><a href="#" class="nocolor">About us</a></li>
+                <li><a href="#" class="nocolor">Service</a></li>
+                <li><a href="#" class="nocolor">Terms of Use</a></li>
+                <li><a href="#" class="nocolor">Contact us</a></li>
+                <li><a href="#" class="nocolor">Blog</a></li>
+              </ul>
+                </div>
               </div>
-              <!-- /.newsletter-wrapper -->
+               <div class="space46"></div>
+              <div class="row">
+                <div class="col-lg-4 col-md-1"></div>
+                <div class="col-6 col-md-5 col-lg-4">
+                <a href="#" class="foot_cta_btn">Contact us</a>
+                </div>
+                <div class="col-6 col-md-6 col-lg-4">
+                  <h6>Follow Us</h6>
+                   <ul class="list_social">
+                <li><a href="#" class="nocolor"><i class="jam jam-facebook"></i></a></li>
+                <li><a href="#" class="nocolor"><i class="jam jam-linkedin"></i></a></li>
+                <li><a href="#" class="nocolor"><i class="icofont-youtube-play"></i></a></li>
+                <li><a href="#" class="nocolor"><i class="icofont-twitter"></i></a></li>
+              </ul>
+                </div>
+              </div>
             </div>
             <!-- /.widget -->
           </div>
@@ -63,3 +71,12 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="ligh-wrapper copy_sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+             <p class="text-center mb-0"><img src="style/images/logo.png"> Pranil Enterprise</p>
+          </div>
+        </div>
+      </div>
+    </div>

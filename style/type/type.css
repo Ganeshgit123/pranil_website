@@ -47,7 +47,6 @@
 [class^="jam-"], [class*=" jam-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Jam' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -59,7 +58,6 @@
 }
 [class^="icofont-"], [class*=" icofont-"] {
   font-family: 'IcoFont' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -72,7 +70,6 @@
 [class^="icon-blob"], [class*=" icon-blob"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Snowlake' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

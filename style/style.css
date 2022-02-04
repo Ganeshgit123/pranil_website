@@ -372,9 +372,6 @@ h6.text-uppercase,
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-footer .inner {
-    padding-bottom: 5rem;
-}
 .page-title-wrapper .inner {
     padding-top: 5rem;
     padding-bottom: 0;
@@ -437,6 +434,7 @@ canvas {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    transform: translateZ();
     -webkit-transform: translateZ();
     height: auto;
     width: auto;
@@ -1283,13 +1281,7 @@ button.hamburger.animate.active:after {
 .light-wrapper{
     background-color: var(--color-white) !important;
 }
-.dark-wrapper {
-    background-color: #242930 !important;
-}
-footer.dark-wrapper,
-.footer-dark-wrapper {
-    background-color: #1e2228 !important;
-}
+
 .pattern-wrapper {
     background: transparent repeat left top;
 }
@@ -1599,18 +1591,7 @@ hr.double {
     text-transform: uppercase;
     color: #404040;
 }
-.dropcap.circle {
-    font-size: 1.1rem;
-    color: var(--color-white);
-    height: 2.3rem;
-    width: 2.3rem;
-    line-height: 2.3rem;
-    margin: 0.25rem 0.5rem 0 0;
-    text-align: center;
-}
-.dropcap.circle {
-    border-radius: 50%;
-}
+
 /*-----------------------------------------------------------------------------------*/
 /* 	21. BADGE
 /*-----------------------------------------------------------------------------------*/
@@ -2445,7 +2426,7 @@ footer a.btn:hover {
     color: var(--color-white);
 }
 footer.inverse-text:not(.blockquote-footer) * {
-    color: #cacaca;
+    color: var(--color-white);
 }
 footer.inverse-text .nocolor.color-text {
     color: #606060;
@@ -3643,6 +3624,7 @@ th {
     margin: 0 0.45rem;
     background: rgba(var(--rgb-white), 1);
     display: block;
+    backface-visibility: visible;
     -webkit-backface-visibility: visible;
     transition: all 200ms ease-in-out;
     border-radius: 100%;
@@ -3705,9 +3687,6 @@ a.btn-play-wrapper:hover {
 a.btn-play-wrapper .btn-play:hover {
     box-shadow: var(--shadow);
 }
-.zeus .tp-tab {}
-.zeus .tp-tab:hover,
-.zeus .tp-tab.selected {}
 .zeus .tp-tab,
 .zeus .tp-tab:after,
 .zeus .tp-tab .tp-tab-image {
@@ -3791,6 +3770,7 @@ a.btn-play-wrapper .btn-play:hover {
     margin: 0 0.3rem;
     background: rgba(var(--rgb-black), 0.2);
     display: block;
+    backface-visibility: visible;
     -webkit-backface-visibility: visible;
     transition: all 200ms ease-in-out;
     border-radius: 100%;
@@ -3853,6 +3833,7 @@ a.btn-play-wrapper .btn-play:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
 }
@@ -4370,7 +4351,7 @@ label textarea {
 }
 .form-row {
     margin-right: -10px;
-    margin-left: -10px
+    margin-left: -10px;
 }
 .form-row>.col,
 .form-row>[class*="col-"] {
@@ -4403,10 +4384,10 @@ input[type="color"],
     line-height: 2.5rem;
     padding: 0 1rem;
     font-size: 0.8rem;
-    color: #606060;
-    background: rgba(var(--rgb-black), 0.05);
+    color: #BCBEBE;
+    background: #F5F5F5;
     border: 0;
-    border-radius: 1.25rem;
+    border-radius: 8px;
     resize: none;
     vertical-align: middle;
     -webkit-box-shadow: none;
@@ -4435,10 +4416,7 @@ input[type="color"]:focus,
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 0;
-    background: rgba(var(--rgb-black), 0.07);
-}
-*[type="submit"] {
-    height: 2.5rem;
+    background: #F5F5F5;
 }
 .widget input {
     margin-bottom: 0
@@ -4449,7 +4427,7 @@ textarea.form-control {
     line-height: 1.4rem;
     width: 100%;
     padding: 0.6rem 1rem;
-    border-radius: 1rem;
+    border-radius: 8px;
     resize: vertical;
     font-weight: inherit;
 }
@@ -6341,7 +6319,7 @@ footer.inverse-text address {
         padding-right: 20px;
     }
     .row>[class*="col-"] {
-        margin-bottom: 30px
+        margin-bottom: 20px
     }
     .row>[class*="col-"]:last-child,
     .row>[class*="col-"]:only-child,
