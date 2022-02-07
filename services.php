@@ -56,7 +56,7 @@
                     <div class="col-md-6">
                         <h6 class="text-center our_serv_head">What We provide to our Client’s Business:</h6>
                         <div class="space30"></div>
-                        <p class="text-center"><img src="style/images/service/service_infographics.png" alt=""
+                        <p class="text-center"><img src="style/images/service/service_infographics.svg" alt=""
                                 class="img-fluid">
                     </div>
                     <div class="col-md-3"></div>
@@ -104,7 +104,6 @@
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
-
         </section>
         <!-- /.container -->
     </div>

@@ -26,9 +26,26 @@
     --list-size: 14px;
     --small-size: 12px;
     --gray-color: #999595;
+    --button-size-hover: 14px;
+    --button-font-size: 14px;
+  }
+  p{
+      color: var(--para-color);
   }
   .bg-default{
     background: var(--main-color);
+  }
+  .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 /* About Us page */
 .back_wrapper{
@@ -386,3 +403,754 @@ font-size: 60px;
         width: 100%;
     } 
 }
+/*Services page css End*/
+
+/* Home Page Css */
+.payroll_process_section{
+    background: url('images/right_blob.svg') no-repeat;
+    background-position: right;
+    background-size: 18%;
+    padding: 3rem 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .payroll_process_section{
+        background: none;
+    }
+}
+.left_banner{
+        background: url('images/left_blob.svg') no-repeat;
+        background-position: left;
+        background-size: 13%;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .left_banner{
+        background: none;
+    }
+}
+.banner_section{
+    background: url('images/home/banner_blob.svg') no-repeat;
+        background-position: right;
+        background-size: 53%;
+    padding: 8rem 0 4rem 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .banner_section{
+        background-position: top right;
+        padding: 8rem 0 0 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+    .banner_section{
+        padding: 8rem 0 2rem 0;
+    }
+}
+.bann_cont_sec{
+    padding-right: 5rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .bann_cont_sec{
+        padding-right: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+    .bann_cont_sec{
+        padding-right: 3rem;
+    }
+}
+.banner_heading{
+    font-size: var(--heading-h5);
+    font-weight: 700;
+    color: var(--color-black);
+}
+.banner_desc{
+    line-height: 22px;
+    color: var(--para-color);
+}
+.demo_btn{
+    color: var(--color-white);
+    background: var(--main-color);
+    border-radius: var(--button-border-radius);
+    padding: 10px 25px;
+    font-size: var(--list-size);
+}
+.demo_btn:hover{
+    background: var(--color-white);
+    border:1px solid var(--main-color);
+}
+
+.payroll_process_head{
+    font-weight: 700;
+    font-size: var(--heading-h6);
+    color: var(--color-black);
+}
+.payroll_process_head:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    height: 3px;
+    left: 12rem;
+    background: var(--main-color);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .payroll_process_head:before{
+        left: 7.5rem;
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .payroll_process_head:before{
+        left: 7.5rem;
+    } 
+}
+.process_desc{
+    color: var(--para-color);
+    text-align: center;
+}
+.payroll_words{
+    padding-left: 0;
+    list-style: none;
+    margin: 3rem 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .payroll_words{
+        margin: 0;
+    }
+}
+.payroll_words li{
+    display: inline-block;
+    width: 8%;
+    padding: 25px 5px;
+    margin-right: 15px;
+    font-size: var(--list-size);
+    text-align: center;
+    position: relative;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .payroll_words li{
+        display: block;
+        width: 50%;
+        left: 25%;
+        top:0 !important;
+        margin-bottom: 20px;
+    }
+}
+.payroll_words .ctc{
+    background: #E6E6F3;
+   top: 20px;
+}
+.payroll_words .basic{
+    background: #FFF7F4;
+    top: -20px;
+}
+
+.payroll_words .hra{
+    background: #F0FAEA;
+   top: 20px;
+}
+.payroll_words .ta{
+    background: #E7FAF4;
+    top: -20px;
+}
+.payroll_words .da{
+    background: #EFF7FF;
+   top: 20px;
+}
+.payroll_words .epf{
+    background: #F8E6F7;
+    top: -20px;
+}
+.payroll_words .income{
+    background: #E7FAF4;
+   top: 20px;
+   line-height: 18px;
+}
+.payroll_words .form_16{
+    background: #FFF7F4;
+    top: -20px;
+}
+.payroll_words .and{
+   top: 20px;
+   padding: 0;
+   font-size: 10px;
+   top: -1.5rem;
+   margin-right: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .payroll_words .and{
+        display: none;
+    }
+}
+
+.payroll_words .and:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    height: 3px;
+    left: 11px;
+    background: var(--main-color);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+ }
+ .payroll_words .so{
+    top: 20px;
+    padding: 0;
+    top: -1rem;
+    left: -1.5rem;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .payroll_words .so{
+        display: none;
+    }
+}
+.advantage_payroll_section{
+    background: url('images/right_blob.svg') no-repeat;
+    background-position: right;
+    background-size: 11%;
+    padding: 2rem 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+.advantage_payroll_section{
+    background: none;
+}
+}
+.img_design{
+    background-color: #BFE3FD;
+    padding: 10px 15px;
+    border-radius: 2px;
+    width: 70px;
+    height: 60px;
+}
+.advant_heading{
+    text-align: center;
+    font-size: var(--heading-h6);
+    font-weight: 600;
+    color: var(--color-black);
+    margin-top: 20px;
+}
+.advant_para{
+    color: var(--para-color);
+    text-align: center;
+    font-size: var(--list-size);
+    line-height: 22px;
+    margin-bottom: 4.5rem;
+}
+.advant_para1{
+    color: var(--para-color);
+    text-align: center;
+    font-size: var(--list-size);
+    line-height: 22px;
+}
+.payroll_box{
+    border: 1px solid var(--border-color);
+    padding: 40px;
+    border-radius: var(--button-border-radius);
+}
+.payroll_box:hover{
+    box-shadow: var(--box-shadow);
+    border: none;
+}
+.payroll_box1{
+    border: 1px solid var(--border-color);
+    padding: 40px;
+    border-radius: var(--button-border-radius);
+    position: relative;
+    top: -60px;
+}
+.payroll_box1:hover{
+    box-shadow: var(--box-shadow);
+    border: none;
+}
+.manual_process_head{
+    font-size: var(--heading-h6);
+    font-weight: 700;
+    color: var(--color-black);
+}
+.advantage_payroll_section .nav-tabs.nav-tabs-bg .nav-link{
+    padding: 6px 30px;
+    font-size: var(--list-size);   
+    box-shadow: var(--box-shadow);
+    width: fit-content;
+    border-radius: var(--button-border-radius);
+}
+.advantage_payroll_section .nav-tabs.nav-tabs-bg .nav-link.active{
+    background: var(--main-color);
+    color: var(--color-white);
+}
+.advantage_payroll_section .nav-tabs.nav-tabs-bg .nav-link:hover{
+    background: var(--color-white);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.advantage_payroll_section .nav-tabs{
+    padding: 2rem 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .advantage_payroll_section .nav-tabs{
+        padding: 1rem 0;
+    }
+}
+.advantage_payroll_section .nav-tabs.flex-column.nav-tabs-bg .nav-item{
+    margin-bottom: 2rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .advantage_payroll_section .nav-tabs.flex-column.nav-tabs-bg .nav-item{
+        margin-bottom: 1rem;
+    }
+}
+.payroll_auto{
+    border-radius: var(--button-border-radius);
+    box-shadow: var(--box-shadow);
+}
+.payroll_auto thead th:first-child {
+    background: #E38E37;
+    border-top-left-radius: var(--button-border-radius);
+    border-top-right-radius: var(--button-border-radius);
+}
+.payroll_auto thead th:nth-child(2) {
+    background: #F9F9F9;
+    text-align: center;
+    font-size: var(--list-size);
+    color: var(--color-black);
+    font-weight: 600;
+}
+.payroll_auto tbody td{
+    font-size: var(--list-size);
+    padding: 10px ;
+    border-bottom: 1px solid var(--color-white);
+    line-height: 22px;
+}
+.payroll_auto tbody td:first-child {
+    background: #E38E37;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.right_payroll_service{
+    background: var(--main-color);
+    border-top-right-radius: var(--button-border-radius);
+    border-bottom-right-radius: var(--button-border-radius);
+        padding: 40px;
+}
+.right_service_head{
+    color: var(--color-white);
+    font-size: var(--heading-h6);
+    font-weight: 600;
+}
+.right_ul li{
+   color: var(--color-white);
+   font-size: var(--list-size);
+   font-weight: 400;
+}
+.payroll_services .owl-carousel .owl-dots{
+    right: 0;
+    left: auto;
+    justify-content:right;
+}
+.payroll_services .owl-carousel .owl-item img{
+    border-top-left-radius: var(--button-border-radius);
+    border-bottom-left-radius: var(--button-border-radius);
+}
+.payroll_services .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--main-color);
+}
+.payroll_services .owl-carousel .owl-dots .owl-dot span{
+    background: #DFDFDF;
+}
+.payroll_services .owl-carousel .owl-dots{
+    margin-top: 1rem;
+}
+.what_we_section{
+    background: url('images/left_blob.svg') no-repeat;
+        background-position: left;
+        background-size: 13%;
+    padding: 0 0 2rem 0;
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .what_we_section{
+        background: none;
+    }
+}
+.what_we_do_head{
+    font-weight: 700;
+    font-size: var(--heading-h6);
+    color: var(--color-black);
+}
+.what_we_do_head:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    height: 3px;
+    left: 13.5rem;
+    background: var(--main-color);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+ }
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .what_we_do_head:before{
+        left: 7.5rem;
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .what_we_do_head:before{
+        left: 7.5rem;
+    } 
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .left_banner{
+        background: none;
+    }
+}
+.what_sec_head{
+    font-size: var(--heading-h6);
+    font-weight: 600;
+    color: var(--color-black);
+}
+.what_ul{
+    margin-bottom: 10px;
+}
+.what_ul li{
+    color: var(--para-color);
+    font-size: var(--para-size);
+    padding-bottom: 10px;
+}
+.what_ul li::marker{
+    color: var(--main-color);
+}
+.what_we_desc{
+    font-size: var(--list-size);
+    color: var(--color-black);
+    font-weight: 600;
+    line-height: 22px;
+}
+.what_we_button_sec{
+    background: var(--main-color);
+    border-radius: var(--button-border-radius);
+    padding: 20px;
+}
+.what_btn_desc{
+    font-size: var(--para-size);
+    color: var(--color-white);
+    font-weight: 600;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .what_btn_desc{
+        text-align: center;
+    }
+}
+.what_cont_btn{
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    padding: 8px 20px;
+    border-radius: var(--button-border-radius);
+    font-size: var(--list-size);
+    position: relative;
+    top: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .what_cont_btn{
+        top: 0;
+    }
+}
+.what_cont_btn:hover{
+    background: var(--color-white);
+    color: var(--main-color);
+}
+.what_we_offer{
+    background: url('images/right_blob.svg') no-repeat;
+    background-position: right;
+    background-size: 18%;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .what_we_offer{
+        background: none;
+    }
+}
+.what_offer_desc{
+    color: var(--color-black);
+    font-weight: 600;
+}.service_cont_head{
+    text-align: center;
+    font-size: var(--heading-h6);
+    font-weight: 600;
+    padding: 10px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .service_cont_head{
+      font-size: var(--para-size);
+      line-height: 24px;
+   } 
+}
+
+.offer_cont_head{
+    font-size: var(--para-size);
+    font-weight: 600;
+    padding: 10px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .offer_cont_head{
+      font-size: var(--list-size);
+      line-height: 24px;
+   } 
+}
+.offer_cont_img{
+    width: 120px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    .offer_cont_img{
+        width: 100%;
+    } 
+}
+/* Home page End */
+
+.btn-common {
+    background: var(--button-background-fill-color);
+    color: var(--button-hover-color);
+    padding: 15px 20px 15px 20px;
+    border-radius: var(--button-border-radius);
+    display: inline-block;
+    font-size: var(--button-font-size);
+  }
+  .btn-common:hover {
+    border: 1px solid var(--main-color);
+    display: inline-block;
+    padding: 15px 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 10px #00000029;
+    border: 2px solid #0090f8;
+    border-radius: 12px;
+    opacity: 1;
+    font-size: var(--button-size-hover);
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: capitalize;
+  
+    margin-right: 0;
+  
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+  }
+  .banner-blue-text {
+    color: var(--main-color);
+    font-size: var(--heading-h4);
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .sub-banner-text {
+    color: var(--color-black);
+    font-size: var(--heading-h5);
+    font-weight: 500;
+  }
+  .common-head {
+    font-size: var(--heading-h4);
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 700;
+  }
+  .inner-text {
+    color: var(--main-color);
+  }
+  .background-grey {
+    background: #fcfcfc;
+    border: 1px solid #fcfcfc;
+  }
+  .common-line {
+    display: block;
+    width: 60px;
+    height: 2px;
+    border: none;
+    border-radius: var(--border-radius);
+    background: var(--main-color);
+    margin: 20px auto;
+    padding-top: -3rem;
+    position: relative;
+    top: -10px;
+  }
+  .desktop {
+    display: inline-block;
+  }
+  .mobile {
+    display: none;
+  }
+  .ol-list {
+    color: var(--color-black);
+    font-size: var(--list-size);
+  }
+  @media only screen and (max-width: 800px) and (min-width: 220px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: inline-block;
+    }
+  }
+  
+  /* animation */
+  .swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(3deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+  .section-white {
+    background-color: #fff !important;
+    box-shadow: none !important;
+  }
+  
+  .spin {
+    width: 600px;
+    height: 500px;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform: rotate(3deg); */
+    /* transform: rotate(0.3rad);/ */
+    /* transform: rotate(3grad); */
+    /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* hr-services-start  */
+  .hr_banner_text{
+      color: var(--color-black);
+  }
+  .hr-we-offer {
+    box-shadow: var(--box-shadow);
+    font-size: 14px;
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .padding-inner {
+    padding: 40px;
+  }
+  .list-common li {
+    font-size: var(--list-size);
+    list-style: none;
+    line-height: 1.9;
+    color: var(--color-black);
+  }
+  .list-common li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--list-disc-color); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  .ser_content {
+    line-height: 1.7 !important;
+  }
+  .grey-box {
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    box-shadow: var(--box-shadow);
+  }
+  .define {
+    font-size: 10px;
+    color: var(--main-color);
+  }
+  .pad-50 {
+    padding: 50px;
+  }
+  .box-red {
+    background: url(../style/images/services/l1.svg);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 130px;
+  }
+  .manage {
+    padding: 20px;
+    font-size: 12px;
+  }
+  .clients .owl-item {
+    width: 160px !important;
+    height: auto;
+  }
+  @media (max-width: 991.98px) {
+    .padding {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .padding {
+      padding: 1rem;
+    }
+  }
+  
+  .padding {
+    padding: 40px;
+  }
+  .nav-pills {
+    color: black;
+  }
+  .nav-pills .nav-link {
+    border: 1px solid var(--main-color);
+    display: inline-block;
+    padding: 15px 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 10px #00000029;
+    border: 2px solid #0090f8;
+    border-radius: 12px;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+  
+    text-transform: capitalize;
+  
+    margin-right: 0;
+  
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+  }
+  .nav-pills li {
+    margin-right: 20px;
+    z-index: 1;
+    text-align: left;
+    font-weight: 500;
+    font-size: var(--heading-h6);
+    letter-spacing: 0px;
+    color: #0090f8;
+    opacity: 1;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background: #0076cb 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 10px #00000029;
+    border-radius: 12px;
+    border: none;
+    opacity: 1;
+  }
+  .tab-content {
+    background: #fff;
+    padding: 25px;
+  }

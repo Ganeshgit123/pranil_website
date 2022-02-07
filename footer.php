@@ -26,23 +26,19 @@
                 <div class="col-6 col-lg-4 col-md-3">
                                 <h6>Quick Links</h6>
                     <ul class="list-unstyled">
-                <li><a href="#" class="nocolor">Home</a></li>
-                <li><a href="#" class="nocolor">About us</a></li>
-                <li><a href="#" class="nocolor">Service</a></li>
-                <li><a href="#" class="nocolor">Terms of Use</a></li>
-                <li><a href="#" class="nocolor">Contact us</a></li>
+                <li><a href="index.php" class="nocolor">Home</a></li>
+                <li><a href="about-us.php" class="nocolor">About us</a></li>
+                <li><a href="services.php" class="nocolor">Our Services</a></li>
+                <li><a href="contact-us.php" class="nocolor">Contact us</a></li>
                 <li><a href="#" class="nocolor">Blog</a></li>
               </ul>
                 </div>
                 <div class="col-6 col-lg-4 col-md-3">
                                 <h6>Our Services</h6>
                     <ul class="list-unstyled">
-                <li><a href="#" class="nocolor">Home</a></li>
-                <li><a href="#" class="nocolor">About us</a></li>
-                <li><a href="#" class="nocolor">Service</a></li>
-                <li><a href="#" class="nocolor">Terms of Use</a></li>
-                <li><a href="#" class="nocolor">Contact us</a></li>
-                <li><a href="#" class="nocolor">Blog</a></li>
+                <li><a href="payroll_compliance_activities.php" class="nocolor">Payroll & Compliance activities</a></li>
+                <li><a href="payroll_process_automation.php" class="nocolor">Payroll Process Automation</a></li>
+                <li><a href="resource_management.php" class="nocolor">Resource Management</a></li>
               </ul>
                 </div>
               </div>
@@ -50,7 +46,7 @@
               <div class="row">
                 <div class="col-lg-4 col-md-1"></div>
                 <div class="col-6 col-md-5 col-lg-4">
-                <a href="#" class="foot_cta_btn">Contact us</a>
+                <a href="contact-us.php" class="foot_cta_btn">Contact us</a>
                 </div>
                 <div class="col-6 col-md-6 col-lg-4">
                   <h6>Follow Us</h6>

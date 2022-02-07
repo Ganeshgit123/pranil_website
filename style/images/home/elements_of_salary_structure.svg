@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1534" height="500.518" viewBox="0 0 1534 500.518">
+  <g id="Group_4233" data-name="Group 4233" transform="translate(-206 -3071.65)">
+    <g id="Group_4232" data-name="Group 4232">
+      <g id="Rectangle_2675" data-name="Rectangle 2675" transform="translate(206 3359)" fill="#707070" stroke="#707070" stroke-width="1" opacity="0.079">
+        <rect width="249" height="204" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="248" height="203" rx="11.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2676" data-name="Rectangle 2676" transform="translate(630.954 3350.409)" fill="#707070" stroke="#707070" stroke-width="1" opacity="0.079">
+        <rect width="249" height="212.591" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="248" height="211.591" rx="11.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2677" data-name="Rectangle 2677" transform="translate(1055.908 3350.409)" fill="#707070" stroke="#707070" stroke-width="1" opacity="0.079">
+        <rect width="249" height="212.591" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="248" height="211.591" rx="11.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2678" data-name="Rectangle 2678" transform="translate(1490.954 3365.168)" fill="#707070" stroke="#707070" stroke-width="1" opacity="0.079">
+        <rect width="249" height="207" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="248" height="206" rx="11.5" fill="none"/>
+      </g>
+      <path id="Path_13228" data-name="Path 13228" d="M321.629,27.059V-24.966a17.841,17.841,0,0,0-17.841-17.84H145.625a17.84,17.84,0,0,0-17.841,17.84V27.059Z" transform="translate(735.293 3114.456)" fill="#0090f8"/>
+      <path id="Path_13456" data-name="Path 13456" d="M375.106,27.059V-24.966c0-9.852-10.193-17.84-22.763-17.84h-201.8c-12.572,0-22.763,7.987-22.763,17.84V27.059Z" transform="translate(79.94 3285.047)" fill="#0090f8"/>
+      <path id="Path_13457" data-name="Path 13457" d="M375.106,27.059V-24.966c0-9.852-10.193-17.84-22.763-17.84h-201.8c-12.572,0-22.763,7.987-22.763,17.84V27.059Z" transform="translate(504.894 3276.456)" fill="#0090f8"/>
+      <path id="Path_13458" data-name="Path 13458" d="M375.106,27.059V-24.966c0-9.852-10.193-17.84-22.763-17.84h-201.8c-12.572,0-22.763,7.987-22.763,17.84V27.059Z" transform="translate(929.848 3276.456)" fill="#0090f8"/>
+      <path id="Path_13459" data-name="Path 13459" d="M375.106,27.059V-24.966c0-9.852-10.193-17.84-22.763-17.84h-201.8c-12.572,0-22.763,7.987-22.763,17.84V27.059Z" transform="translate(1364.894 3291.215)" fill="#0090f8"/>
+      <text id="CTC" transform="translate(933 3118)" fill="#fbfbfb" font-size="25" font-family="'OpenSans', sans-serif" font-weight="600"><tspan x="0" y="0">CTC</tspan></text>
+      <text id="Gross_Salary" data-name="Gross Salary" transform="translate(245 3289)" fill="#fbfbfb" font-size="25" font-family="'OpenSans', sans-serif"><tspan x="0" y="0">Gross Salary</tspan></text>
+      <text id="Gross_Salary_" data-name="Gross Salary =" transform="translate(325 3430)" fill="#1c2120" font-size="18" font-family="'OpenSans', sans-serif"><tspan x="-59" y="0">Gross Salary =</tspan></text>
+      <text id="Basic_Salary_HRA_Other_Allowances" data-name="Basic Salary + HRA
++ Other Allowances" transform="translate(325 3464)" fill="#1c2120" font-size="18" font-family="'OpenSans', sans-serif"><tspan x="-77" y="0">Basic Salary + HRA</tspan><tspan x="-80" y="24">+ Other Allowances</tspan></text>
+      <text id="Net_Salary_Gross_Salary_-_Professional_Tax_-_Public_PF_-_Income_Tax" data-name="Net Salary = Gross 
+Salary - 
+Professional Tax -
+ Public PF - Income Tax" transform="translate(749 3424)" fill="#1c2120" font-size="18" font-family="'OpenSans', sans-serif"><tspan x="-79" y="0">Net Salary = Gross </tspan><tspan x="-33" y="24">Salary - </tspan><tspan x="-73" y="48">Professional Tax -</tspan><tspan x="-95" y="72" xml:space="preserve"> Public PF - Income Tax</tspan></text>
+      <text id="Gross_Salary_Basic_Salary_HRA_Other_Allowances_" data-name="Gross Salary = 
+Basic Salary + HRA 
++ Other Allowances " transform="translate(1174 3430)" fill="#1c2120" font-size="18" font-family="'OpenSans', sans-serif"><tspan x="-61" y="0">Gross Salary = </tspan><tspan x="-79" y="24">Basic Salary + HRA </tspan><tspan x="-83" y="48">+ Other Allowances </tspan></text>
+      <text id="Fringe_Benefits_eg_car_phone_Internet_Services_etc_Non_-_Cash_benefits_" data-name="Fringe Benefits , eg ; 
+car, phone, Internet,
+ Services etc 
+ Non - Cash benefits  " transform="translate(1617 3430)" fill="#1c2120" font-size="18" font-family="'OpenSans', sans-serif"><tspan x="-86" y="0">Fringe Benefits , eg ; </tspan><tspan x="-84" y="24">car, phone, Internet,</tspan><tspan x="-53" y="48" xml:space="preserve"> Services etc </tspan><tspan x="-89" y="72" xml:space="preserve"> Non - Cash benefits  </tspan></text>
+      <text id="Net_Salary" data-name="Net Salary" transform="translate(689.862 3280.409)" fill="#fbfbfb" font-size="25" font-family="'OpenSans', sans-serif"><tspan x="0" y="0">Net Salary</tspan></text>
+      <text id="Allowances" transform="translate(1094.908 3280.409)" fill="#fbfbfb" font-size="25" font-family="'OpenSans', sans-serif"><tspan x="0" y="0">Allowances</tspan></text>
+      <text id="Prerequistes" transform="translate(1560 3293.342)" fill="#fbfbfb" font-size="25" font-family="'OpenSans', sans-serif"><tspan x="0" y="0">Prerequistes</tspan></text>
+      <line id="Line_71" data-name="Line 71" x2="534" transform="translate(1081.5 3108.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_72" data-name="Line 72" x2="509" transform="translate(333.84 3108.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_73" data-name="Line 73" y2="90" transform="translate(333.5 3108.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_74" data-name="Line 74" y2="90" transform="translate(738.5 3106.583)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_75" data-name="Line 75" y2="90" transform="translate(1181.293 3106.583)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_77" data-name="Line 77" y2="24.5" transform="translate(1180.408 3315)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_79" data-name="Line 79" y2="24.5" transform="translate(738.5 3315)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_80" data-name="Line 80" y2="24.5" transform="translate(333.84 3324.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_78" data-name="Line 78" y2="24.5" transform="translate(1617 3330)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_76" data-name="Line 76" y2="90" transform="translate(1615.454 3108.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.34,1.34,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z" transform="translate(315.84 3173.116)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-2" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.34,1.34,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z" transform="translate(720.5 3173.116)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-3" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.34,1.34,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z" transform="translate(1163.293 3178.612)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-4" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.34,1.34,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z" transform="translate(1597.454 3178.612)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-5" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,13.623A10.248,10.248,0,1,0,13.623,3.375,10.246,10.246,0,0,0,3.375,13.623Zm14.244-2.138a.955.955,0,0,1,1.345,0,.939.939,0,0,1,.276.67.956.956,0,0,1-.281.675l-4.646,4.631A.95.95,0,0,1,13,17.432l-4.715-4.7a.951.951,0,0,1,1.345-1.345l4,4.035Z" transform="translate(319.877 3321.125)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-6" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,13.623A10.248,10.248,0,1,0,13.623,3.375,10.246,10.246,0,0,0,3.375,13.623Zm14.244-2.138a.955.955,0,0,1,1.345,0,.939.939,0,0,1,.276.67.956.956,0,0,1-.281.675l-4.646,4.631A.95.95,0,0,1,13,17.432l-4.715-4.7a.951.951,0,0,1,1.345-1.345l4,4.035Z" transform="translate(725.491 3313.627)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-7" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,13.623A10.248,10.248,0,1,0,13.623,3.375,10.246,10.246,0,0,0,3.375,13.623Zm14.244-2.138a.955.955,0,0,1,1.345,0,.939.939,0,0,1,.276.67.956.956,0,0,1-.281.675l-4.646,4.631A.95.95,0,0,1,13,17.432l-4.715-4.7a.951.951,0,0,1,1.345-1.345l4,4.035Z" transform="translate(1166.785 3315.629)" fill="#0090f8"/>
+      <path id="Icon_ionic-ios-arrow-dropdown-circle-8" data-name="Icon ionic-ios-arrow-dropdown-circle" d="M3.375,13.623A10.248,10.248,0,1,0,13.623,3.375,10.246,10.246,0,0,0,3.375,13.623Zm14.244-2.138a.955.955,0,0,1,1.345,0,.939.939,0,0,1,.276.67.956.956,0,0,1-.281.675l-4.646,4.631A.95.95,0,0,1,13,17.432l-4.715-4.7a.951.951,0,0,1,1.345-1.345l4,4.035Z" transform="translate(1602.716 3328.627)" fill="#0090f8"/>
+    </g>
+  </g>
+</svg>
