@@ -33,7 +33,7 @@
                                 tasks, reducing manual
                                 payroll errors, and improving employee satisfaction.</p>
                             <div class="space20 d-none d-md-none d-lg-block"></div>
-                            <a href="" class="demo_btn">Request Demo</a>
+                            <a href="contact-us.php" class="demo_btn">Request Demo</a>
                             <div class="space20 d-block d-md-none d-lg-none"></div>
                         </div>
                     </div>
@@ -80,24 +80,25 @@
                         <div class="col-lg-1"></div>
                     </div>
                     <div class="space30 d-none d-md-block d-lg-block"></div>
+                    <div class="space60 d-none d-md-block d-lg-none"></div>
                     <div class="row align-items-center">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
+                        <div class="col-lg-3 col-md-3"></div>
+                        <div class="col-lg-6 col-md-6">
                             <h5 class="text-center payroll_process_head">Pranil Integrated Payroll Calculation Includes
                             </h5>
                         </div>
-                        <div class="col-md-3"></div>
+                        <div class="col-lg-3 col-md-3"></div>
                     </div>
                     <div class="space60 d-none d-md-block d-lg-block"></div>
                     <div class="row align-items-center">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-8">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8 col-md-12">
                             <figure><img src="style/images/home/integrated_payroll_img.svg" alt="" /></figure>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-lg-2"></div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-md-3"></div>
+                        <div class="col-md-3 d-md-block d-lg-block d-none"></div>
                         <div class="col-md-6">
                             <h5 class="text-center payroll_process_head">Simple Elements of Salary Structure in India
                             </h5>
@@ -114,12 +115,14 @@
                     <div class="row align-items-center">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
-                            <p class="process_desc">Get-over the constraints of traditional Payroll functions - Outsource it to Pranil
+                            <p class="process_desc">Get-over the constraints of traditional Payroll functions -
+                                Outsource it to Pranil
                                 Payroll Organization.</p>
-                            <p class="process_desc"> We offer Highly Secured and automated Payroll Compliances solutions at moderate cost and
+                            <p class="process_desc"> We offer Highly Secured and automated Payroll Compliances solutions
+                                at moderate cost and
                                 Time Effective Employee Management Solutions.</p>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-md-2 d-none d-md-block d-lg-block"></div>
                     </div>
                 </div>
             </div>
@@ -161,6 +164,7 @@
                     </div>
                 </div>
                 <div class="space80 d-none d-md-block d-lg-block"></div>
+                <div class="space40 d-block d-md-none d-lg-none"></div>
                 <div class="row align-items-center">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
@@ -171,6 +175,7 @@
                     <div class="col-md-3"></div>
                 </div>
                 <div class="space50 d-none d-md-block d-lg-block"></div>
+                <div class="space20 d-block d-md-none d-lg-none"></div>
                 <div class="row no-gutters">
                     <div class="col-lg-6 mb-0 pr-40">
                         <h5 class="manual_process_head">The Advantages of Payroll Process over Manual Payroll
@@ -272,9 +277,9 @@
                     <!--/column -->
                 </div>
 
-                <div class="space50 d-none d-md-block d-lg-block"></div>
+                <div class="space50"></div>
                 <div class="row align-items-center">
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3 d-none d-md-block d-lg-block"></div>
                     <div class="col-md-6">
                         <h5 class="text-center payroll_process_head">What Pranil Payroll Services Offer You?
                         </h5>
@@ -294,14 +299,14 @@
                 <div class="space30 d-none d-md-block d-lg-block"></div>
                 <div class="row align-items-center">
                     <div class="col-lg-12">
-                        <div class="grid-view payroll_services">
-                            <div class="carousel owl-carousel" data-margin="30" data-dots="true" data-autoplay="false"
+                        <div class="grid-view pranil_carou">
+                            <div class="carousel owl-carousel" data-margin="30" data-dots="true" data-autoplay="true"
                                 data-autoplay-timeout="5000"
                                 data-responsive='{"0":{"items": "1"}, "768":{"items": "1"}, "992":{"items": "1"}}'>
                                 <div class="item">
-                                    <div class="row no-gutters">
+                                    <div class="row payroll_services no-gutters">
                                         <div class="col-md-6">
-                                            <figure><img src="style/images/home/pf5.jpg" alt=""></figure>
+                                            <figure><img src="style/images/home/insights_reporting.png" alt=""></figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right_payroll_service">
@@ -322,9 +327,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="row no-gutters">
+                                    <div class="row payroll_services no-gutters">
                                         <div class="col-md-6">
-                                            <figure><img src="style/images/home/pf5.jpg" alt=""></figure>
+                                            <figure><img src="style/images/home/insights_reporting.png" alt=""></figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right_payroll_service">
@@ -342,9 +347,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="row no-gutters">
+                                    <div class="row payroll_services no-gutters">
                                         <div class="col-md-6">
-                                            <figure><img src="style/images/home/pf5.jpg" alt=""></figure>
+                                            <figure><img src="style/images/home/insights_reporting.png" alt=""></figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right_payroll_service">
@@ -367,9 +372,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <div class="row no-gutters">
+                                    <div class="row payroll_services no-gutters">
                                         <div class="col-md-6">
-                                            <figure><img src="style/images/home/pf5.jpg" alt=""></figure>
+                                            <figure><img src="style/images/home/insights_reporting.png" alt=""></figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right_payroll_service">
@@ -403,7 +408,7 @@
         <section class="what_we_section">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3 d-none d-md-block d-lg-block"></div>
                     <div class="col-md-6">
                         <h5 class="text-center what_we_do_head">What We Do</h5>
                     </div>
@@ -436,9 +441,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="space50 d-none d-md-block d-lg-block"></div>
+                <div class="space50"></div>
                 <div class="row align-items-center">
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3 d-none d-md-block d-lg-block"></div>
                     <div class="col-md-6">
                         <h5 class="text-center what_we_do_head">Why Choose us</h5>
                     </div>
@@ -459,7 +464,7 @@
                                 streamline your HR functions easier.</li>
                         </ul>
                     </div>
-                    <div class="col-lg-1 d-lg-block d-md-none"></div>
+                    <div class="col-lg-1 d-none d-lg-block d-md-none"></div>
                     <div class="col-lg-5 col-md-6">
                         <figure><img src="style/images/home/why_choose_us.svg" alt=""></figure>
                         <p class="what_we_desc mb-0">Overall Pranil Enterprise’s Employee Management Services boosts
@@ -468,26 +473,53 @@
                             resource works</p>
                     </div>
                 </div>
-            </div>
-            <div class="what_we_offer">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
-                            <h5 class="text-center what_we_do_head">What we offer</h5>
-                        </div>
-                        <div class="col-md-3"></div>
+                <div class="space50"></div>
+                <div class="row align-items-center">
+                    <div class="col-md-3 d-none d-md-block d-lg-block"></div>
+                    <div class="col-md-6">
+                        <h5 class="text-center what_we_do_head">What we offer</h5>
                     </div>
-                    <div class="space20 d-none d-md-block d-lg-block"></div>
-                    <div class="row align-items-center">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-6">
-                            <p class="text-center mb-0 what_offer_desc">Employee Management Services Includes;</p>
-                        </div>
-                        <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="space20 d-none d-md-block d-lg-block"></div>
+                <div class="row align-items-center">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <p class="text-center mb-0 what_offer_desc">Employee Management Services Includes;</p>
                     </div>
-                    <div class="space80 d-none d-md-block d-lg-block"></div>
-
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="space80 d-none d-md-block d-lg-block"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="num_head">01</h2>
+                        <div class="service_design">
+                            <p class="text-center mb-0"><img src="style/images/home/end_to_end_payroll.svg"
+                                    class="service_cont_img" alt=""></p>
+                            <h5 class="service_cont_head">End to End Payroll & Compliance activities</h5>
+                            <p class="text-center mb-0"><a class="know_btn"
+                                    href="payroll_compliance_activities.php">Know More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="num_head">02</h2>
+                        <div class="service_design">
+                            <p class="text-center mb-0"><img src="style/images/home/payroll_process_automation.svg"
+                                    class="service_cont_img" alt=""></p>
+                            <h5 class="service_cont_head">Payroll Process Automation</h5>
+                            <p class="text-center mb-0"><a class="know_btn" href="payroll_process_automation.php"">Know More</a></p>
+                        </div>
+                    </div>
+                    <div class=" col-md-4">
+                                    <h2 class="num_head">03</h2>
+                                    <div class="service_design">
+                                        <p class="text-center mb-0"><img src="style/images/home/manage_hr.svg"
+                                                class="service_cont_img" alt=""></p>
+                                        <h5 class="service_cont_head">Resource Management</h5>
+                                        <p class="text-center mb-0"><a class="know_btn" href="">Know More</a></p>
+                                    </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -501,7 +533,7 @@
                             help increase productivity?</h3>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                        <p class="text-center mb-0"><a href="#" class="cta_btn">Contact us Today.</a></p>
+                        <p class="text-center mb-0"><a href="contact-us.php" class="cta_btn">Contact us Today.</a></p>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>

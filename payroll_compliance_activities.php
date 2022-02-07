@@ -24,15 +24,18 @@
     <section class="wrapper blue-wrapper">
         <div class="container about_inner">
             <div class="row">
-                <div class="col-md-6">
-                    <h3 class="banner-blue-text">Payroll & Compliance</h3>
-
-                    <p>Our Payroll Services are encrypted and secured by cloud<br> payroll software.</p>
-                    <br>
-                    <p class="text-left"><a href="" class="btn-common"> Add-on Pranil Payroll Services</a> </p>
+                <div class="col-lg-6">
+                    <div class="payroll_ban_sec">
+                        <h1 class="banner-blue-text">Payroll & Compliance</h1>
+                        <p>Our Payroll Services are encrypted and secured by cloud payroll software.</p>
+                        <div class="space20 d-none d-md-none d-lg-block"></div>
+                        <p class="text-left"><a href="payroll_process_automation.php" class="btn-common"> Add-on Pranil
+                                Payroll Services</a> </p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="style/images/services/payroll.svg" width="400px" height="400px" class="img-fluid">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <img src="style/images/services/payroll.svg" class="img-fluid">
                 </div>
             </div>
             <!-- /column -->
@@ -40,91 +43,98 @@
     </section>
     <!-- /.secion -->
 
-    <section class="wrapper light-wrapper">
+    <section class="wrapper payroll_cont_Sec light-wrapper">
         <div class="container">
             <div class="row align-items-center">
                 <!--/column -->
                 <div class="col-lg-1"></div>
-                <div class="col-lg-10 inner">
-                    <h1 class="common-head">What is meant by the Payroll Process?</h1>
+                <div class="col-lg-10">
+                    <h6 class="common-head">What is meant by the Payroll Process?</h6>
                     <hr class="common-line">
                     <p class="about_content">Payroll Processing refers to the complete set of steps involved in
                         calculating the total<br> remuneration of each employee.</p>
                     <div class="space20"></div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h5>The process typically involves four stages and tasks such as</h5>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="wrapper light-wrapper">
-                                <div class="container inner">
-
-                                    <div class="carousel owl-carousel clients" data-margin="10" data-loop="true"
-                                        data-dots="false" data-autoplay="true" data-autoplay-timeout="3000"
-                                        data-responsive='{"0":{"items": "2"}, "768":{"items": "4"}, "992":{"items": "5"}, "1140":{"items": "5"}}'>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg"
-                                                    width="40px">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="grey-box"><img src="style/images/services/define.svg">
-                                                <p class="define">Defining salary structures</p>
-                                            </div>
-                                        </div>
-
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <h5 class="task_head">The process typically involves four stages and tasks such as</h5>
+                </div>
+                <div class="col-lg-7">
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="carousel owl-carousel" data-margin="15" data-loop="true"
+                                data-dots="false" data-autoplay="true" data-autoplay-timeout="5000"
+                                data-responsive='{"0":{"items": "2"}, "768":{"items": "5"}, "992":{"items": "5"}, "1140":{"items": "5"}}'>
+                                <div class="item">
+                                    <div class="grey_box">
+                                    <figure>
+                                           <p class="text-center mb-0"><img src="style/images/services/define.svg"
+                                                    class="payroll_caroul_img"></p>
+                                        </figure>
+                                        <p class="define">Defining salary structures</p>
                                     </div>
-                                    <!-- /.owl-carousel -->
-
                                 </div>
-                                <!-- /.container -->
+                                <div class="item">
+                                    <div class="grey_box">
+                                    <figure>
+                                           <p class="text-center mb-0"><img src="style/images/services/define.svg"
+                                                    class="payroll_caroul_img"></p>
+                                        </figure>
+                                        <p class="define">Defining salary structures</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="grey_box">
+                                    <figure>
+                                           <p class="text-center mb-0"><img src="style/images/services/define.svg"
+                                                    class="payroll_caroul_img"></p>
+                                        </figure>
+                                        <p class="define">Defining salary structures</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="grey_box">
+                                    <figure>
+                                           <p class="text-center mb-0"><img src="style/images/services/define.svg"
+                                                    class="payroll_caroul_img"></p>
+                                        </figure>
+                                        <p class="define">Defining salary structures</p>
+                                    </div>
+                                </div>
+
                             </div>
+                            <!-- /.owl-carousel -->
+
                         </div>
+                        <!-- /.container -->
                     </div>
-                    <p class="about_content">Setting up the necessary policies with respect to taxes and
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-10 col-md-10">
+                    <p class="about_content mb-0">Setting up the necessary policies with respect to taxes and
                         other adjustments,
                         and then calculating the total salary after adjusting all the company
                         policies.<br><br> After the salaries are disbursed, filing, reporting and providing
                         payslips to employees also comes under the entire payroll processing cycle.</p>
                 </div>
+                <div class="col-lg-1 col-md-1"></div>
             </div>
-            <!--/column -->
         </div>
-        <!--/.row -->
     </section>
 
-    <section class="background-grey pad-50">
+    <section class="background_grey">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-9">
-                    <p class="text-center">In simplest words, if payroll is the amount paid by the employer to employee,
-                        payroll processing
-                        is
-                        the whole methodology to accurately calculate the net pay of the employees as per statutory
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-lg-8 col-md-10">
+                    <p class="text-center mb-0">In simplest words, if payroll is the amount paid by the employer to employee,
+                        payroll processing is the whole methodology to accurately calculate the net pay of the employees as per statutory
                         compliances and company policies.</p>
                 </div>
+                <div class="col-md-1 col-lg-2"></div>
             </div>
         </div>
     </section>
@@ -368,7 +378,6 @@
 
 
     <!-- /.content-wrapper -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="style/js/jquery.min.js"></script>
     <script src="style/js/popper.min.js"></script>
     <script src="style/js/bootstrap.min.js"></script>

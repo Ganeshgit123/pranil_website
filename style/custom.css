@@ -47,6 +47,23 @@
     max-width: 100%;
     height: auto;
   }
+  .header_talk{
+      position: absolute;
+      right: 0;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 1023px) { 
+      .header_talk{
+         position: inherit;
+      }
+}
+  .header_talk .nav-link{
+    font-size: 18px;
+    color: var(--main-color);
+    font-weight: 700;
+  }
+  .header_talk .nav-link:hover{
+ color: var(--color-black);
+}
 /* About Us page */
 .back_wrapper{
     background: url('images/right_blob.svg') no-repeat;
@@ -116,7 +133,7 @@
 footer.dark-wrapper,
 .footer-dark-wrapper {
     background-color: var(--color-black);
-    padding: 1.5rem 0 0;
+    padding: 1.5rem 0 1.5rem 0;
     border-radius: var(--button-border-radius);
     box-shadow: var(--box-shadow);
 }
@@ -179,9 +196,9 @@ footer .foot_cta_btn:hover{
     height: 0px;
 }
     }
-.copy_sec{
+/* .copy_sec{
         padding: 15px 0;
-    }
+    } */
 /*footer css End*/
 
 /*Contact us css*/
@@ -397,6 +414,7 @@ font-size: 60px;
 }
 .service_cont_img{
     width: 150px;
+    height: 120px;
 }
 @media only screen and (min-width: 320px) and (max-width: 1023px) {
     .service_cont_img{
@@ -415,6 +433,7 @@ font-size: 60px;
 @media only screen and (min-width: 320px) and (max-width: 1023px) { 
     .payroll_process_section{
         background: none;
+        padding: 2rem 0 0 0;
     }
 }
 .left_banner{
@@ -497,7 +516,7 @@ font-size: 60px;
  }
  @media only screen and (min-width: 320px) and (max-width: 767px) {
     .payroll_process_head:before{
-        left: 7.5rem;
+        left: 8.2rem;
     } 
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -618,6 +637,9 @@ font-size: 60px;
     background: none;
 }
 }
+.advantage_payroll_section .tab-content{
+    padding: 0;
+}
 .img_design{
     background-color: #BFE3FD;
     padding: 10px 15px;
@@ -638,6 +660,11 @@ font-size: 60px;
     font-size: var(--list-size);
     line-height: 22px;
     margin-bottom: 4.5rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .advant_para{
+        margin-bottom: 20px;
+    }
 }
 .advant_para1{
     color: var(--para-color);
@@ -660,6 +687,11 @@ font-size: 60px;
     border-radius: var(--button-border-radius);
     position: relative;
     top: -60px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .payroll_box1{
+        top: 0;
+    }
 }
 .payroll_box1:hover{
     box-shadow: var(--box-shadow);
@@ -731,10 +763,14 @@ font-size: 60px;
 }
 
 .right_payroll_service{
-    background: var(--main-color);
     border-top-right-radius: var(--button-border-radius);
     border-bottom-right-radius: var(--button-border-radius);
         padding: 40px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .right_payroll_service{
+        padding: 0 20px;
+    } 
 }
 .right_service_head{
     color: var(--color-white);
@@ -746,23 +782,22 @@ font-size: 60px;
    font-size: var(--list-size);
    font-weight: 400;
 }
-.payroll_services .owl-carousel .owl-dots{
+.payroll_services{
+    background: var(--main-color);
+}
+.pranil_carou .owl-carousel .owl-dots{
     right: 0;
     left: auto;
     justify-content:right;
 }
-.payroll_services .owl-carousel .owl-item img{
-    border-top-left-radius: var(--button-border-radius);
-    border-bottom-left-radius: var(--button-border-radius);
-}
-.payroll_services .owl-carousel .owl-dots .owl-dot.active span{
+.pranil_carou .owl-carousel .owl-dots .owl-dot.active span{
     background: var(--main-color);
 }
-.payroll_services .owl-carousel .owl-dots .owl-dot span{
+.pranil_carou .owl-carousel .owl-dots .owl-dot span{
     background: #DFDFDF;
 }
-.payroll_services .owl-carousel .owl-dots{
-    margin-top: 1rem;
+.pranil_carou .owl-carousel .owl-dots{
+    margin-top: 1rem !important;
 }
 .what_we_section{
     background: url('images/left_blob.svg') no-repeat;
@@ -878,14 +913,17 @@ font-size: 60px;
     font-weight: 600;
 }.service_cont_head{
     text-align: center;
-    font-size: var(--heading-h6);
+    font-size: var(--para-size);
+    line-height: 22px;
     font-weight: 600;
     padding: 10px 0;
+    height: 70px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
    .service_cont_head{
       font-size: var(--para-size);
-      line-height: 24px;
+      line-height: 20px;
+    height: 100px;
    } 
 }
 
@@ -913,7 +951,7 @@ font-size: 60px;
 .btn-common {
     background: var(--button-background-fill-color);
     color: var(--button-hover-color);
-    padding: 15px 20px 15px 20px;
+    padding: 6px 20px;
     border-radius: var(--button-border-radius);
     display: inline-block;
     font-size: var(--button-font-size);
@@ -921,19 +959,16 @@ font-size: 60px;
   .btn-common:hover {
     border: 1px solid var(--main-color);
     display: inline-block;
-    padding: 15px 20px;
+    padding: 6px 20px;
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 6px 6px 10px #00000029;
-    border: 2px solid #0090f8;
     border-radius: 12px;
     opacity: 1;
     font-size: var(--button-size-hover);
     font-weight: 600;
     color: var(--main-color);
     text-transform: capitalize;
-  
     margin-right: 0;
-  
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -951,18 +986,24 @@ font-size: 60px;
     font-weight: 500;
   }
   .common-head {
-    font-size: var(--heading-h4);
+    font-size: var(--heading-h5);
     text-align: center;
     line-height: 1.7;
     font-weight: 700;
+    color: var(--color-black);
   }
   .inner-text {
     color: var(--main-color);
   }
-  .background-grey {
+  .background_grey {
     background: #fcfcfc;
-    border: 1px solid #fcfcfc;
+    padding: 40px;
   }
+  @media only screen and (min-width: 320px) and (max-width: 767px) { 
+    .background_grey {
+        padding: 20px 0;
+      }
+}
   .common-line {
     display: block;
     width: 60px;
@@ -1068,13 +1109,18 @@ font-size: 60px;
   .ser_content {
     line-height: 1.7 !important;
   }
-  .grey-box {
-    background: #fbfbfb 0% 0% no-repeat padding-box;
+  .grey_box{
+    background: #fbfbfb;
     box-shadow: var(--box-shadow);
+    padding: 10px 0;
   }
   .define {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--main-color);
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
   }
   .pad-50 {
     padding: 50px;
@@ -1154,3 +1200,23 @@ font-size: 60px;
     background: #fff;
     padding: 25px;
   }
+
+.payroll_ban_sec{
+    padding-right: 6rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) { 
+    .payroll_ban_sec{
+        padding-right: 0;
+    }
+}
+.payroll_cont_Sec{
+    padding: 2rem 0 1rem 0;
+}
+.payroll_caroul_img{
+max-width: 100% !important;
+}
+.task_head{
+    font-size: var(--heading-h6);
+    font-weight: 600;
+    color: var(--color-black);
+}

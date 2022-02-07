@@ -44,39 +44,36 @@
                             SERVICES PVT LTD. We are
                             focussed in helping Businesses with the Employee Management solutions to deal with their
                             Payroll process and compliance management.</p>
-                        <div class="space20"></div>
                         <p class="about_content">Whereas NILASU is one of the fastest growing companies in the
                             Recruitment Business in India
                             and has offices in Bangalore (the IT capital of India), and Guwahati. NILASU has grown 100%
                             YoY since inception and we grew over 500% till 2021.</p>
-                        <div class="space20"></div>
                         <p class="about_content">We deliver new age "All-in-one Employee Management Services" platform
                             for your remote or hybrid work structure. are experts in Managing your employee payroll
                             process, filing their tax benefits, administering their work hours and expenses, measuring
                             your employee performance, document management, etc.</p>
-                        <div class="space20"></div>
                         <p class="about_content">In recent years, PRANIL ENTERPRISE has successfully implemented
                             technological advancements in the field of Employee Management System (EMS) to deliver
                             complete growth and success in meeting our clients Human Resource(HR) demands and Payroll
                             Management compliance initiatives.</p>
-                        <div class="space30"></div>
+                        <div class="space30 d-none d-md-block d-lg-block"></div>
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6 col-md-12">
                         <p class="text-center"><img src="style/images/about/about_flow.svg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-md-3"></div>
+                    <div class="col-lg-3"></div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                    <div class="col-lg-2 d-none d-md-none d-lg-block"></div>
+                    <div class="col-lg-8 col-12">
                         <p class="about_bott_content">Pranil Enterprises Employee Management Services gives your company
                             a competitive edge by handling everything from payroll to human resources to employee
                             benefits.</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
                 <!--/.row -->
             </div>
@@ -90,7 +87,7 @@
                         <h3 class="cta_cont mb-0">See how we can assist you?</h3>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                        <p class="text-center mb-0"><a href="#" class="cta_btn">Contact us Today.</a></p>
+                        <p class="text-center mb-0"><a href="contact-us.php" class="cta_btn">Contact us Today.</a></p>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>

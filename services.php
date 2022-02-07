@@ -51,39 +51,45 @@
                         <div class="space20 d-none"></div>
                     </div>
                 </div>
+                <div class="space30 d-none d-md-block d-lg-block"></div>
                 <div class="row align-items-center">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
+                    <div class="col-lg-3 col-md-2"></div>
+                    <div class="col-lg-6 col-md-8">
                         <h6 class="text-center our_serv_head">What We provide to our Client’s Business:</h6>
                         <div class="space30"></div>
                         <p class="text-center"><img src="style/images/service/service_infographics.svg" alt=""
                                 class="img-fluid">
                     </div>
-                    <div class="col-md-3"></div>
+                    <div class="col-lg-3 col-md-2"></div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                    <h2 class="num_head">01</h2>
+                        <h2 class="num_head">01</h2>
                         <div class="service_design">
-                            <p class="text-center mb-0"><img src="style/images/service/manage_hr.svg" class="service_cont_img" alt=""></p>
-                            <h5 class="service_cont_head">Automate Payroll Process to Increase Efficiency</h5>
-                            <p class="text-center mb-0"><a class="know_btn" href="">Know More</a></p>
+                            <p class="text-center mb-0"><img src="style/images/home/end_to_end_payroll.svg"
+                                    class="service_cont_img" alt=""></p>
+                            <h5 class="service_cont_head">End to End Payroll & Compliance activities</h5>
+                            <p class="text-center mb-0"><a class="know_btn"
+                                    href="payroll_compliance_activities.php">Know More</a></p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                    <h2 class="num_head">02</h2>
+                        <h2 class="num_head">02</h2>
                         <div class="service_design">
-                            <p class="text-center mb-0"><img src="style/images/service/manage_hr.svg" class="service_cont_img" alt=""></p>
-                            <h5 class="service_cont_head">Manage End-to-End Payroll & Compliance Activities</h5>
-                            <p class="text-center mb-0"><a class="know_btn" href="">Know More</a></p>
+                            <p class="text-center mb-0"><img src="style/images/home/payroll_process_automation.svg"
+                                    class="service_cont_img" alt=""></p>
+                            <h5 class="service_cont_head">Payroll Process Automation</h5>
+                            <p class="text-center mb-0"><a class="know_btn" href="payroll_process_automation.php"">Know More</a></p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                    <h2 class="num_head">03</h2>
-                        <div class="service_design">
-                            <p class="text-center mb-0"><img src="style/images/service/manage_hr.svg" class="service_cont_img" alt=""></p>
-                            <h5 class="service_cont_head">Manage HR Recruitment Process - Hire Skilled Resource.</h5>
-                            <p class="text-center mb-0"><a class="know_btn" href="">Know More</a></p>
+                    <div class=" col-md-4">
+                                    <h2 class="num_head">03</h2>
+                                    <div class="service_design">
+                                        <p class="text-center mb-0"><img src="style/images/home/manage_hr.svg"
+                                                class="service_cont_img" alt=""></p>
+                                        <h5 class="service_cont_head">Resource Management</h5>
+                                        <p class="text-center mb-0"><a class="know_btn" href="">Know More</a></p>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -100,7 +106,7 @@
                             Payroll Professionals in every step of your business.</h3>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                        <p class="text-center mb-0 pt-20"><a href="#" class="cta_btn">Contact us Today.</a></p>
+                        <p class="text-center mb-0 pt-20"><a href="contact-us.php" class="cta_btn">Contact us Today.</a></p>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>

@@ -1,5 +1,5 @@
       <div class="container">
-          <div class="navbar-brand"><a href="index.php"><img src="#" srcset="style/images/logo.svg" alt="" /></a></div>
+          <div class="navbar-brand"><a href="index.php"><img src="#" srcset="style/images/logo.svg" alt="" />Pranil Enterprise</a></div>
           <div class="navbar-other ml-auto order-lg-3">
               <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
                   <li class="nav-item">
@@ -13,7 +13,7 @@
           <div class="navbar-collapse offcanvas-nav">
               <div class="offcanvas-header d-lg-none d-xl-none">
                   <a href="index.html"><img src="#"
-                          srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
+                          srcset="style/images/logo.svg" alt="" />Pranil Enterprise</a>
                   <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
               </div>
               <ul class="navbar-nav">
@@ -34,7 +34,7 @@
                   </li>
                   <li class="nav-item"><a class="nav-link" href="">Blog</a>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="contact-us.php">Lets Talk</a>
+                  <li class="nav-item header_talk"><a class="nav-link" href="contact-us.php">Lets Talk</a>
                   </li>
               </ul>
               <!-- /.navbar-nav -->

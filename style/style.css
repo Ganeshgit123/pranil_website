@@ -429,6 +429,8 @@ canvas {
 }
 .navbar .navbar-brand a {
     color: #303030;
+    font-size: 14px;
+    font-weight: 600;
 }
 .navbar-brand img {
     -webkit-transition: all 0.3s;
@@ -466,8 +468,8 @@ canvas {
 .navbar-nav .nav-link,
 .dropdown-item,
 .mega-menu-content a {
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: var(--list-size);
+    font-weight: 600;
 }
 .nav-uppercase .navbar-nav .nav-link {
     font-size: 0.7rem;
@@ -478,7 +480,8 @@ canvas {
     min-width: 170px;
     padding: 0;
     margin: 0;
-    background: #1e2228;
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
     border: 0;
     border-radius: 0;
     border-bottom-left-radius: 0.2rem;
@@ -510,7 +513,7 @@ canvas {
     width: 1.1rem;
 }
 .mega-menu-content a:hover {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 .dropdown-item.active {
     background: none;
@@ -521,6 +524,7 @@ canvas {
 .dropdown-item.highlighted {
     background: none !important;
     border-top-color: transparent;
+    color: var(--main-color);
 }
 .dropdown-menu,
 .dropdown-item,
@@ -529,7 +533,7 @@ canvas {
 .dropdown-item:focus,
 .mega-menu-content a:hover,
 .mega-menu-content a:focus {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 .dropdown-toggle::after {
     display: none;
@@ -711,7 +715,7 @@ button.hamburger.animate.active:after {
     top: 0.5rem;
     left: 0.8rem;
     cursor: pointer;
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 1.2rem;
     transition: all 200ms ease-in-out !important;
 }
@@ -1924,16 +1928,7 @@ ol {
     margin: 0 0 0 0.5rem;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/* 	27. CLIENTS
-/*-----------------------------------------------------------------------------------*/
-.clients img {
-    opacity: 0.8;
-    transition: all 200ms ease-in-out;
-}
-.clients img:hover {
-    opacity: 1;
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	28. FIGURE
 /*-----------------------------------------------------------------------------------*/
@@ -3760,7 +3755,7 @@ a.btn-play-wrapper .btn-play:hover {
     height: 0.5rem;
     margin: 0 0.3rem;
     background: #707070 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
+    /* border: 1px solid #707070; */
     display: block;
     backface-visibility: visible;
     -webkit-backface-visibility: visible;
@@ -5909,7 +5904,7 @@ footer.inverse-text address {
     .navbar-hover-opacity .dropdown-item:focus,
     .navbar-hover-opacity .mega-menu-content a:hover,
     .navbar-hover-opacity .mega-menu-content a:focus {
-        color: rgba(var(--rgb-white), 0.75);
+        color: var(--main-color);
     }
     .navbar-other.inverse-text .nav-item a:not(.btn),
     .navbar-other.inverse-text .nav-item button {
@@ -6102,7 +6097,7 @@ footer.inverse-text address {
         box-shadow: none !important;
     }
     .navbar-nav .nav-link {
-        color: var(--color-white);
+        color: var(--color-black);
     }
     .navbar-nav .nav-link,
     .dropdown-item,
@@ -6143,14 +6138,14 @@ footer.inverse-text address {
         border-top-left-radius: 0 !important;
         border-top-right-radius: 0 !important;
     }
-    .navbar .navbar-brand {
+    /* .navbar .navbar-brand {
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
     }
     .navbar.fixed .navbar-brand {
         padding-top: 0.9rem;
         padding-bottom: 0.9rem;
-    }
+    } */
     .navbar.extended .logo-dark {
         display: inline-block;
     }
@@ -6169,7 +6164,7 @@ footer.inverse-text address {
         padding-bottom: 0.5rem;
         overflow-y: auto;
         visibility: hidden;
-        background: #1e2228;
+        background: var(--color-white);
         transition-timing-function: ease-in-out;
         transition-duration: .3s;
         transition-property: left, visibility;
@@ -6177,6 +6172,7 @@ footer.inverse-text address {
         -moz-background-clip: padding;
         -webkit-background-clip: padding;
         background-clip: padding-box;
+        box-shadow: var(--box-shadow);
     }
     .offcanvas-nav.open {
         left: 0;

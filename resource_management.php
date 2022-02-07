@@ -49,7 +49,7 @@
                     <h1 class="common-head">Transformative HR Services</h1>
                     <hr class="common-line">
                     <p class="about_content">The world of hiring is changing, and we<span class="inner-text">
-                            “Pernil HR
+                            “Pranil HR
                             Services”</span> as recruiters,
                         are right in the middle of it. We understand how difficult things may be out there. The
                         worst

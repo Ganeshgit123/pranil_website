@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-             <p class="text-center mb-0"><img src="style/images/logo.png"> Pranil Enterprise</p>
+             <p class="text-center mb-0"><img src="style/images/logo.svg"> Pranil Enterprise</p>
           </div>
         </div>
       </div>
